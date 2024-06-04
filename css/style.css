@@ -44,6 +44,7 @@ body {
 }
 
 .btn-contato {
+  text-decoration: none;
   color: #fff;
   background-color: #c28a93;
   border: 1px solid #c28a93;
@@ -101,6 +102,30 @@ body {
 
 }
 
+.section-5 .card {
+  background: #e9bdc4;
+}
+
+.contato a {
+  color: #056438
+}
+
+.contato a:hover {
+  color: #056438c9
+}
+
+.redes-sociais-icon {
+  list-style: none;
+}
+
+.redes-sociais-icon a {
+  color: #056437;
+}
+
+.redes-sociais-icon a:hover {
+  color: #056438c9;
+}
+
 .footer {
   background: #e9bdc4;
   color: #056437;
@@ -111,21 +136,6 @@ body {
   color: red;
 }
 
-.redes-sociais h2 {
-  color: #808080;
-  font-size: 28px;
-  margin-left: 16px;
-}
-
-.redes-sociais-icon {
-  list-style: none;
-  display: flex;
-}
-
-.redes-sociais-icon a {
-  color: #056437;
-}
-
-.redes-sociais-icon a:hover {
-  color: #808080;
+.footer .aviso {
+  font-size: 16px;
 }

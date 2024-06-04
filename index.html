@@ -38,13 +38,13 @@
               <a class="nav-link fs-4" href="#">Home</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link fs-4" href="#">Contato</a>
+              <a class="nav-link fs-4" href="#sobre">Sobre mim</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link fs-4" href="#">Sobre mim</a>
+              <a class="nav-link fs-4" href="#demandas">Demandas</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link fs-4" href="#">Demandas</a>
+              <a class="nav-link fs-4" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -67,14 +67,14 @@
               <h1 class="titulo">Ester Amaral</h1>
               <p>Orientada pela perspectiva psicanalítica</p>
               <p>Agende seu atendimento Online</p>
-              <button class="btn-contato">Entre em contato</button>
+              <a href="https://api.whatsapp.com/send?phone=5511988405439" class="btn-contato" target="_blank">Entre em contato</a>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="container section-2 my-4 py-4">
-      <h2 class="text-center">Sobre mim</h2>
+      <h2 class="text-center" id="sobre">Sobre mim</h2>
       <div class="row align-items-center">
         <div class="col-md-8 px-4">
           <p>
@@ -112,7 +112,7 @@
     </section>
 
     <section class="container section-4 my-4 py-4">
-      <h2 class="text-center">Demandas que atendo</h2>
+      <h2 class="text-center" id="demandas">Demandas que atendo</h2>
       <div class="row align-items-center">
         <div class="col-md-6 d-flex justify-content-center">
           <ul>
@@ -135,31 +135,59 @@
       </div>
       <div class="text-center">
         <h2>Agende sua consulta</h2>
-        <button class="btn-contato">Entre em contato</button>
+        <a href="https://api.whatsapp.com/send?phone=5511988405439" class="btn-contato" target="_blank">Entre em contato</a>
+      </div>
+    </section>
+    <section class="container section-5 py-4 text-center">
+      <div class="row">
+        <div class="col-md-6 my-2">
+          <div class="card contato">
+            <div class="card-header">
+              <h2 id="contato">Contato</h2>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                <a class="nav-link fs-4" href="https://api.whatsapp.com/send?phone=5511988405439" target="_blank">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  (11)98840-5439
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 my-2">
+          <div class="card redes-sociais">
+            <div class="card-header">
+              <h2>
+                Redes Sociais
+              </h2>
+            </div>
+            <div class="card-body">
+              <span class="card-text redes-sociais-icon d-flex justify-content-center">
+                <a class="nav-link fs-4" href="https://www.linkedin.com/in/esteramaralmarques/" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="nav-link fs-4" href="https://www.instagram.com/psicologaesteramaral/" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="nav-link fs-4" href="https://api.whatsapp.com/send?phone=5511988405439" target="_blank">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </a>
+              </span>
+            </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <footer class="container-fluid footer mt-4 py-4">
       <div class="container">
-        <div class="redes-sociais">
-          <h2>Redes Sociais</h2>
-          <span class="redes-sociais-icon">
-            <a class="nav-link fs-4" href="#">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a class="nav-link fs-4" href="#">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a class="nav-link fs-4" href="#">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a class="nav-link fs-4" href="#">
-              <i class="fa-brands fa-whatsapp"></i>
-            </a>
-          </span>
-        </div>
         <p class="mx-2 text-center">
           © Ester Amaral Psicóloga Clinica - CRP: 06/204114
           <span class="red">♥</span> - 2024
+        </p>
+        <p class="aviso">
+          ATENÇÃO: Este site não oferece tratamento ou aconselhamento imediato para pessoas em crise suicida. Em caso de crise, ligue para 188 (CVV) ou acesse o site www.cvv.org.br. Em caso de emergência, procure atendimento em um hospital mais próximo.
         </p>
       </div>
     </footer>
