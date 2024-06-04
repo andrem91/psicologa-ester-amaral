@@ -23,9 +23,6 @@ body {
   height: auto;
 }
 
-.navbar {
-  font-size: 24px;
-}
 
 .img-ester-1 {
   border-radius: 12px;
@@ -91,8 +88,7 @@ body {
   font-size: 24px;
 }
 
-.section-4 {
-  border-radius: 24px;
+.section-4 .card {
   background: rgba(233, 189, 196, 0.32);
 }
 
